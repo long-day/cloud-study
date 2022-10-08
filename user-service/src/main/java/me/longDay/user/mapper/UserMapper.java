@@ -1,6 +1,7 @@
-package cn.itcast.user.mapper;
+package me.longDay.user.mapper;
 
-import cn.itcast.user.pojo.User;
+
+import me.longDay.user.pojo.User;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 

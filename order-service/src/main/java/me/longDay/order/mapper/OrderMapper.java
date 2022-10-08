@@ -1,6 +1,6 @@
-package cn.itcast.order.mapper;
+package me.longDay.order.mapper;
 
-import cn.itcast.order.pojo.Order;
+import me.longDay.order.pojo.Order;
 import org.apache.ibatis.annotations.Select;
 
 public interface OrderMapper {

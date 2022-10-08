@@ -1,4 +1,4 @@
-package cn.itcast.user.pojo;
+package me.longDay.user.pojo;
 
 import lombok.Data;
 

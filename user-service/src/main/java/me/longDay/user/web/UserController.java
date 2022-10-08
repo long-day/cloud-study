@@ -1,10 +1,14 @@
-package cn.itcast.user.web;
+package me.longDay.user.web;
 
-import cn.itcast.user.pojo.User;
-import cn.itcast.user.service.UserService;
+
 import lombok.extern.slf4j.Slf4j;
+import me.longDay.user.pojo.User;
+import me.longDay.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
@@ -15,7 +19,7 @@ public class UserController {
     private UserService userService;
 
     /**
-     * 路径： /user/110
+     * 路径： /user/1
      *
      * @param id 用户id
      * @return 用户

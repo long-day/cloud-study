@@ -1,4 +1,4 @@
-package cn.itcast.order.pojo;
+package me.longDay.order.pojo;
 
 import lombok.Data;
 

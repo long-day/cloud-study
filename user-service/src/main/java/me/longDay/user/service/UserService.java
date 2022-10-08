@@ -1,7 +1,8 @@
-package cn.itcast.user.service;
+package me.longDay.user.service;
 
-import cn.itcast.user.mapper.UserMapper;
-import cn.itcast.user.pojo.User;
+
+import me.longDay.user.mapper.UserMapper;
+import me.longDay.user.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
