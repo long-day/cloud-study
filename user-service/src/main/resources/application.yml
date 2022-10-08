@@ -7,7 +7,7 @@ spring:
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
-    name: userService
+    name: user-service
   cloud:
     nacos:
       server-addr: localhost:8848 #nacos服务器地址
